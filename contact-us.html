@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-us.css">
+    <title>CONTACT US</title>
+</head>
+<!-- onload="document.contact.fname.focus();" -->
+<!-- Use above code in body to focus on the first name field -->
+<body>
+    <div class="nav">
+        <nav><a href="home.html"><img src="images/D-NAME.jpg" alt="my logo" id="logo"></a></nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="contact-us.html" class="active">CONTACT US</a></li>
+        </ul>
+    </div>
+    <div class="name">CONTACT US</div>
+    <form name="contact" method="post" class="form">
+        <input type="text" placeholder="First Name" name="fname" required><br><br><br>
+        <input type="text" placeholder="Last Name" name="lname" required><br><br><br>
+        <input type="email" placeholder="Email, e.g example@gmail.com" name="em" required><br><br><br>
+        <input type="text" placeholder="Message" id="mess" required><br><br><br>
+        <input type="submit" value="Submit" id="sub" name="submit">
+    </form>
+</body>
+</html>

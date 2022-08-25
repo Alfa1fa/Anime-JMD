@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+}
+#logo{
+    width: 100px;
+    height: 80px;
+    float: right;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:bisque;
+    position: fixed;
+    width: 100vw;
+    opacity: 0.8;
+}
+.nav ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 100px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+.active{
+    background-color: black;
+    color: lavender;
+    padding: 30px;
+    text-decoration: underline;
+}
+.nav ul a:not(.active):hover{
+    background-color: black;
+    color: lavender;
+    padding: 30px;
+    text-decoration: underline;
+} 
+.slideshow-container{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+}
+.mySlides{
+    display: none;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.anime {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+#arr{
+    font-size: large;
+    padding-left: 45%;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
