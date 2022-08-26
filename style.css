@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.gallery-content>img {
+    width: 250px;
+    height: 200px;
+}
+
+.gallery-content>p {
+    text-align: center;
+    padding: 0px 30px;
+    color: white;
+}
+
+.gallery-content {
+    display: inline-block;
+    width: 250px;
+    border: 0.5px solid blue;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
