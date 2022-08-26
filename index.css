@@ -83,3 +83,32 @@ li a{
     background-color: black;
     color: white;
 }
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#face{
+    background-color: #4267B2;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 50%;
+}
+#twit{
+    background-color: white;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 50%;
+}
+#insta{
+    background-color:  #bc2a8d;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 50%;
+}
+#goo{
+    background-color: white;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 50%;
+}
